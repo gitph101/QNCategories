@@ -35,6 +35,22 @@
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D32332CA40D4F631E8DBA950B25A18FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32099E0A716483F90035D502A494AC /* XCTest.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		E20B19F21E84D2E200502071 /* UIDevice+QNTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E20B19F01E84D2E200502071 /* UIDevice+QNTools.h */; };
+		E20B19F31E84D2E200502071 /* UIDevice+QNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E20B19F11E84D2E200502071 /* UIDevice+QNTools.m */; };
+		E231725D1E85083600DB5AB5 /* UIImage+QNColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E231725B1E85083600DB5AB5 /* UIImage+QNColor.h */; };
+		E231725E1E85083600DB5AB5 /* UIImage+QNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E231725C1E85083600DB5AB5 /* UIImage+QNColor.m */; };
+		E23172611E85147200DB5AB5 /* UIImage+QNTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E231725F1E85147200DB5AB5 /* UIImage+QNTools.h */; };
+		E23172621E85147200DB5AB5 /* UIImage+QNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E23172601E85147200DB5AB5 /* UIImage+QNTools.m */; };
+		E23172651E85163000DB5AB5 /* UIImage+QNModify.h in Headers */ = {isa = PBXBuildFile; fileRef = E23172631E85163000DB5AB5 /* UIImage+QNModify.h */; };
+		E23172661E85163000DB5AB5 /* UIImage+QNModify.m in Sources */ = {isa = PBXBuildFile; fileRef = E23172641E85163000DB5AB5 /* UIImage+QNModify.m */; };
+		E231726A1E85233300DB5AB5 /* UIControl+QNTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E23172681E85233300DB5AB5 /* UIControl+QNTools.h */; };
+		E231726B1E85233300DB5AB5 /* UIControl+QNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E23172691E85233300DB5AB5 /* UIControl+QNTools.m */; };
+		E2DB74461E84BD29002BB264 /* UIView+QNFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DB74441E84BD29002BB264 /* UIView+QNFrame.h */; };
+		E2DB74471E84BD29002BB264 /* UIView+QNFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB74451E84BD29002BB264 /* UIView+QNFrame.m */; };
+		E2DB744A1E84C17A002BB264 /* UIView+QNTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DB74481E84C17A002BB264 /* UIView+QNTools.h */; };
+		E2DB744B1E84C17A002BB264 /* UIView+QNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB74491E84C17A002BB264 /* UIView+QNTools.m */; };
+		E2DB74531E84C67C002BB264 /* UIColor+QNTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DB74511E84C67C002BB264 /* UIColor+QNTools.h */; };
+		E2DB74541E84C67C002BB264 /* UIColor+QNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DB74521E84C67C002BB264 /* UIColor+QNTools.m */; };
 		EFE6B3B442E09561CB52E10DD104ADA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		F64A7E87429226B97F79DB60926A452F /* Pods-QNCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F02360FBB8A5959750729AE2161E942 /* Pods-QNCategories_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -109,6 +125,22 @@
 		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		DFE14B33CA41EFC6354DD00DBFFE174B /* QNCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QNCategories.xcconfig; sourceTree = "<group>"; };
+		E20B19F01E84D2E200502071 /* UIDevice+QNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+QNTools.h"; sourceTree = "<group>"; };
+		E20B19F11E84D2E200502071 /* UIDevice+QNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+QNTools.m"; sourceTree = "<group>"; };
+		E231725B1E85083600DB5AB5 /* UIImage+QNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QNColor.h"; sourceTree = "<group>"; };
+		E231725C1E85083600DB5AB5 /* UIImage+QNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QNColor.m"; sourceTree = "<group>"; };
+		E231725F1E85147200DB5AB5 /* UIImage+QNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QNTools.h"; sourceTree = "<group>"; };
+		E23172601E85147200DB5AB5 /* UIImage+QNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QNTools.m"; sourceTree = "<group>"; };
+		E23172631E85163000DB5AB5 /* UIImage+QNModify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QNModify.h"; sourceTree = "<group>"; };
+		E23172641E85163000DB5AB5 /* UIImage+QNModify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QNModify.m"; sourceTree = "<group>"; };
+		E23172681E85233300DB5AB5 /* UIControl+QNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+QNTools.h"; sourceTree = "<group>"; };
+		E23172691E85233300DB5AB5 /* UIControl+QNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+QNTools.m"; sourceTree = "<group>"; };
+		E2DB74441E84BD29002BB264 /* UIView+QNFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QNFrame.h"; sourceTree = "<group>"; };
+		E2DB74451E84BD29002BB264 /* UIView+QNFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QNFrame.m"; sourceTree = "<group>"; };
+		E2DB74481E84C17A002BB264 /* UIView+QNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QNTools.h"; sourceTree = "<group>"; };
+		E2DB74491E84C17A002BB264 /* UIView+QNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QNTools.m"; sourceTree = "<group>"; };
+		E2DB74511E84C67C002BB264 /* UIColor+QNTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QNTools.h"; sourceTree = "<group>"; };
+		E2DB74521E84C67C002BB264 /* UIColor+QNTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QNTools.m"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E6EE4F39C507B428C2B2DF3AFCCD0FC6 /* Pods-QNCategories_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QNCategories_Example.modulemap"; sourceTree = "<group>"; };
 		EA21364F94B6DAF05AB8A97AE03666AA /* Pods-QNCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -268,6 +300,24 @@
 			path = "Example/Pods/Target Support Files/QNCategories";
 			sourceTree = "<group>";
 		};
+		E20B19EF1E84D23F00502071 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				E20B19F01E84D2E200502071 /* UIDevice+QNTools.h */,
+				E20B19F11E84D2E200502071 /* UIDevice+QNTools.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		E23172671E851DE000DB5AB5 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				E23172681E85233300DB5AB5 /* UIControl+QNTools.h */,
+				E23172691E85233300DB5AB5 /* UIControl+QNTools.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
 		E2DB74411E84B52E002BB264 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,8 +328,70 @@
 		E2DB74421E84B52E002BB264 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E23172671E851DE000DB5AB5 /* UIControl */,
+				E20B19EF1E84D23F00502071 /* UIDevice */,
+				E2DB744C1E84C519002BB264 /* UIColor */,
+				E2DB744D1E84C519002BB264 /* UIGestureRecognizer */,
+				E2DB744E1E84C519002BB264 /* UIImage */,
+				E2DB744F1E84C519002BB264 /* UIScrollView */,
+				E2DB74501E84C519002BB264 /* UITableView */,
+				E2DB74431E84BCE4002BB264 /* UIView */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		E2DB74431E84BCE4002BB264 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB74441E84BD29002BB264 /* UIView+QNFrame.h */,
+				E2DB74451E84BD29002BB264 /* UIView+QNFrame.m */,
+				E2DB74481E84C17A002BB264 /* UIView+QNTools.h */,
+				E2DB74491E84C17A002BB264 /* UIView+QNTools.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		E2DB744C1E84C519002BB264 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB74511E84C67C002BB264 /* UIColor+QNTools.h */,
+				E2DB74521E84C67C002BB264 /* UIColor+QNTools.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E2DB744D1E84C519002BB264 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		E2DB744E1E84C519002BB264 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				E231725B1E85083600DB5AB5 /* UIImage+QNColor.h */,
+				E231725C1E85083600DB5AB5 /* UIImage+QNColor.m */,
+				E231725F1E85147200DB5AB5 /* UIImage+QNTools.h */,
+				E23172601E85147200DB5AB5 /* UIImage+QNTools.m */,
+				E23172631E85163000DB5AB5 /* UIImage+QNModify.h */,
+				E23172641E85163000DB5AB5 /* UIImage+QNModify.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		E2DB744F1E84C519002BB264 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		E2DB74501E84C519002BB264 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITableView;
 			sourceTree = "<group>";
 		};
 		E6298DF6B3F2650BAB99EEC4A1DC7A58 /* Pods-QNCategories_Tests */ = {
@@ -380,14 +492,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DB744A1E84C17A002BB264 /* UIView+QNTools.h in Headers */,
+				E2DB74531E84C67C002BB264 /* UIColor+QNTools.h in Headers */,
 				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				E231726A1E85233300DB5AB5 /* UIControl+QNTools.h in Headers */,
+				E23172611E85147200DB5AB5 /* UIImage+QNTools.h in Headers */,
 				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
 				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
 				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				E23172651E85163000DB5AB5 /* UIImage+QNModify.h in Headers */,
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				E20B19F21E84D2E200502071 /* UIDevice+QNTools.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+				E231725D1E85083600DB5AB5 /* UIImage+QNColor.h in Headers */,
+				E2DB74461E84BD29002BB264 /* UIView+QNFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,12 +658,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23172661E85163000DB5AB5 /* UIImage+QNModify.m in Sources */,
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				E20B19F31E84D2E200502071 /* UIDevice+QNTools.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				E2DB744B1E84C17A002BB264 /* UIView+QNTools.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				E2DB74471E84BD29002BB264 /* UIView+QNFrame.m in Sources */,
+				E231725E1E85083600DB5AB5 /* UIImage+QNColor.m in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				E231726B1E85233300DB5AB5 /* UIControl+QNTools.m in Sources */,
+				E2DB74541E84C67C002BB264 /* UIColor+QNTools.m in Sources */,
+				E23172621E85147200DB5AB5 /* UIImage+QNTools.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,

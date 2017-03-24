@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = gitph101;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = V8GY4D3AU8;
+					};
 					6003F5AD195388D20070C39A = {
 						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
@@ -525,9 +528,11 @@
 			baseConfigurationReference = 505A6E6C216CDFB86CBC0131 /* Pods-QNCategories_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QNCategories/QNCategories-Prefix.pch";
 				INFOPLIST_FILE = "QNCategories/QNCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,9 +545,11 @@
 			baseConfigurationReference = C58132BB2C1AF082A9F840C4 /* Pods-QNCategories_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8GY4D3AU8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QNCategories/QNCategories-Prefix.pch";
 				INFOPLIST_FILE = "QNCategories/QNCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
