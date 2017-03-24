@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QNCategories_Example' do
+  pod 'QNCategories', :path => '../'
+
+  target 'QNCategories_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
