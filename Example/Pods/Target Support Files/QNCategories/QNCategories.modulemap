@@ -1,0 +1,6 @@
+framework module QNCategories {
+  umbrella header "QNCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

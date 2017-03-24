@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QNCategories (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QNCategories (from `../`)
+
+EXTERNAL SOURCES:
+  QNCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QNCategories: 2c1aec3737dc4a89bb5ec46920b40e7c639a988e
+
+PODFILE CHECKSUM: a4e1bc498d01ed98c58d8eb10620a14bad2400dc
+
+COCOAPODS: 1.2.0
