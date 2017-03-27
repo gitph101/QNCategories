@@ -10,7 +10,7 @@
 
 @implementation UIColor (QNTools)
 
-+ (UIColor *)jrandomColor {
++ (UIColor *)randomColor {
     NSInteger redValue = arc4random() % 255;
     NSInteger greenValue = arc4random() % 255;
     NSInteger blueValue = arc4random() % 255;

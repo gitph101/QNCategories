@@ -7,6 +7,7 @@
 //
 
 #import "NSData+QNHash.h"
+#include <CommonCrypto/CommonCrypto.h>
 
 @implementation NSData (QNHash)
 

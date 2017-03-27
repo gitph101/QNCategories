@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+QNTools.h"
 
 @interface NSString (QNTools)
 
@@ -87,5 +88,11 @@
  @return A new string create from the file in UTF-8 character encoding.
  */
 + (NSString *)stringNamed:(NSString *)name;
+
+/**
+ Trim blank characters (space and newline) in head and tail.
+ @return the trimmed string.
+ */
+- (NSString *)stringByTrim;
 
 @end

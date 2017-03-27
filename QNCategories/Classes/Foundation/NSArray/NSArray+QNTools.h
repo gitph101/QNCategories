@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSArray (QNTools)
 
 /**
@@ -67,3 +69,5 @@
 - (nullable NSString *)jsonPrettyStringEncoded;
 
 @end
+
+NS_ASSUME_NONNULL_END

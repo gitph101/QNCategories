@@ -64,7 +64,7 @@
     return model;
 }
 
-+ (NSString *)jk_macAddress {
++ (NSString *)macAddress {
     int                 mib[6];
     size_t              len;
     char                *buf;

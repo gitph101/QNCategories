@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#include <CommonCrypto/CommonCrypto.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface NSData (QNHash)
 
@@ -106,3 +107,4 @@
 - (nullable id)jsonValueDecoded;
 
 @end
+NS_ASSUME_NONNULL_END

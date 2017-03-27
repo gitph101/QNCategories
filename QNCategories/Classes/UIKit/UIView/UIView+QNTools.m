@@ -85,9 +85,9 @@
     }
 }
 
-- (void)shake:(int)times direction:(int)direction currentTimes:(int)current withDelta:(CGFloat)delta speed:(NSTimeInterval)interval shakeDirection:(JKShakeDirection)shakeDirection completion:(void (^)(void))completionHandler {
+- (void)shake:(int)times direction:(int)direction currentTimes:(int)current withDelta:(CGFloat)delta speed:(NSTimeInterval)interval shakeDirection:(QNShakeDirection)shakeDirection completion:(void (^)(void))completionHandler {
     [UIView animateWithDuration:interval animations:^{
-        self.layer.affineTransform = (shakeDirection == JKShakeDirectionHorizontal) ? CGAffineTransformMakeTranslation(delta * direction, 0) : CGAffineTransformMakeTranslation(0, delta * direction);
+        self.layer.affineTransform = (shakeDirection == QNShakeDirectionHorizontal) ? CGAffineTransformMakeTranslation(delta * direction, 0) : CGAffineTransformMakeTranslation(0, delta * direction);
     } completion:^(BOOL finished) {
         if(current >= times) {
             [UIView animateWithDuration:interval animations:^{
@@ -99,7 +99,7 @@
             }];
             return;
         }
-        [self _jk_shake:(times - 1)
+        [self _qn_shake:(times - 1)
               direction:direction * -1
            currentTimes:current + 1
               withDelta:delta
@@ -136,6 +136,31 @@
     }
     
     return nil;
+}
+
+
+- (void)_qn_shake:(int)times direction:(int)direction currentTimes:(int)current withDelta:(CGFloat)delta speed:(NSTimeInterval)interval shakeDirection:(QNShakeDirection)shakeDirection completion:(void (^)(void))completionHandler {
+    [UIView animateWithDuration:interval animations:^{
+        self.layer.affineTransform = (shakeDirection == QNShakeDirectionHorizontal) ? CGAffineTransformMakeTranslation(delta * direction, 0) : CGAffineTransformMakeTranslation(0, delta * direction);
+    } completion:^(BOOL finished) {
+        if(current >= times) {
+            [UIView animateWithDuration:interval animations:^{
+                self.layer.affineTransform = CGAffineTransformIdentity;
+            } completion:^(BOOL finished){
+                if (completionHandler != nil) {
+                    completionHandler();
+                }
+            }];
+            return;
+        }
+        [self _qn_shake:(times - 1)
+              direction:direction * -1
+           currentTimes:current + 1
+              withDelta:delta
+                  speed:interval
+         shakeDirection:shakeDirection
+             completion:completionHandler];
+    }];
 }
 
 @end

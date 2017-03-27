@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, readonly) BOOL isPad;
 @property (nonatomic, readonly) BOOL isSimulator;
-@property (nonatomic, readonly) BOOL isJailbroken;
 
 - (NSString *)machineModel;
 - (NSString *)machineModelName;

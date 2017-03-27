@@ -149,10 +149,10 @@ static inline CGFloat DegreesToRadians(CGFloat degrees) {
     return degrees * M_PI / 180;
 }
 
-/// Convert radians to degrees.
-static inline CGFloat RadiansToDegrees(CGFloat radians) {
-    return radians * 180 / M_PI;
-}
+///// Convert radians to degrees.
+//static inline CGFloat RadiansToDegrees(CGFloat radians) {
+//    return radians * 180 / M_PI;
+//}
 
 - (UIImage *)imageByRotateLeft90 {
     return [self imageByRotate:DegreesToRadians(90) fitSize:YES];

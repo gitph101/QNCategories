@@ -7,6 +7,7 @@
 //
 
 #import "NSNumber+QNTools.h"
+#import "NSString+QNTools.h"
 
 @implementation NSNumber (QNTools)
 

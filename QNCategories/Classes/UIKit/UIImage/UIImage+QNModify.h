@@ -14,7 +14,7 @@
 
 - (UIImage *)imageByResizeToSize:(CGSize)size;
 
-- (UIImage *)qimageByResizeToSize:(CGSize)size contentMode:(UIViewContentMode)contentMode;
+- (UIImage *)imageByResizeToSize:(CGSize)size contentMode:(UIViewContentMode)contentMode;
 
 - (UIImage *)imageByCropToRect:(CGRect)rect;
 

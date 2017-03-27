@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (QNTools)
+NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, QNShakeDirection) {
+    QNShakeDirectionHorizontal = 0,
+    QNShakeDirectionVertical
+};
+
+
+@interface UIView (QNTools)
 
 /**
  截图
@@ -40,7 +47,7 @@
  */
 - (UIView *)findFirstResponder;
 
-- (void)shake:(int)times direction:(int)direction currentTimes:(int)current withDelta:(CGFloat)delta speed:(NSTimeInterval)interval shakeDirection:(JKShakeDirection)shakeDirection completion:(void (^)(void))completionHandler;
+- (void)shake:(int)times direction:(int)direction currentTimes:(int)current withDelta:(CGFloat)delta speed:(NSTimeInterval)interval shakeDirection:(QNShakeDirection)shakeDirection completion:(void (^)(void))completionHandler;
 
 /**
   移除所有子视图
@@ -50,3 +57,5 @@
 @property (nullable, nonatomic, readonly) UIViewController *viewController;
 
 @end
+
+NS_ASSUME_NONNULL_END

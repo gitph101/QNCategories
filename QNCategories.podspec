@@ -25,7 +25,7 @@ TODO.总结的一些常用的工具方法
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gitph101' => 'linux_c@foxmail.com' }
-  s.source           = { :git => 'https://fangLandResearch:fangland@git.coding.net/fangLandResearch/CTCategories.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gitph101/QNCategories.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
